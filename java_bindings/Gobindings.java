@@ -84,4 +84,7 @@ public abstract class Gobindings {
     public static native void normalFunc();
     public static native String normalFuncReturn();
     public static native String normalFuncReturnError() throws Exception;
+    public static native void normalFuncWithParameters(String a, String b, String c, String d, long e, long f, long g, long h);
+    // skipped function VariadicFuncInt with unsupported parameter or return types
+
 }

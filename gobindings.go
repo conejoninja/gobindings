@@ -61,6 +61,16 @@ func NormalFuncReturnError() (string, error) {
 	return "some other string", nil
 }
 
+func NormalFuncWithParameters(a, b, c, d string, e, f, g, h int) {
+
+}
+
+func VariadicFuncInt(nums ...int) { // skipped function VariadicFuncInt with unsupported parameter or return types
+
+}
+
+
+
 
 
 
